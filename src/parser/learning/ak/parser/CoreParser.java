@@ -1,11 +1,12 @@
 package learning.ak.parser;
 
+import learning.ak.parser.*;
 
-class CoreParser{
+public class CoreParser{
 
-  public static void main(String[] args) {
+  public static void parse(String arg) {
 
-      System.out.println("Starting core parser");
+      System.out.println("Starting core parser: "+arg);
 
   }
 }
